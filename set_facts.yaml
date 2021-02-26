@@ -1,0 +1,7 @@
+---
+- name: Set system fact
+  hosts: all
+  tasks:
+    - name: Set SAP
+      set_fact:
+        is_sap: 1
