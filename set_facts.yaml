@@ -4,4 +4,4 @@
   tasks:
     - name: Set SAP
       set_fact:
-        is_sap: 1
+        is_sap: True
